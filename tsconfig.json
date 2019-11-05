@@ -14,7 +14,8 @@
     "baseUrl": ".",
     "paths": {
       "*": ["*"]
-    }
+    },
+    "plugins": [{ "transform": "ts-transformer-keys/transformer" }]
   },
   "exclude": ["node_modules", "dist"]
 }
